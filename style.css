@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 990px;
+    margin: auto;
+}
+
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    padding: 0 14px;
+}
+
+nav {
+    padding: 20px 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li:nth-child(2) {
+    padding: 0 14px;
+}
+
+.night-mode {
+    padding: 20px 0;
+}
+
+/* MAIN */
+
+main {
+    padding: 0 14px;
+}
+
+.home {
+    display: flex;
+    height: calc(100vh - 58px);
+}
+
+.about-me {
+    display: flex;
+}
+
+.profile {
+
+}
+
+.profile-image {
+    width: 240px;
+    border-left: 5px solid #88bb92;
+}
+
+.about-me-text {
+
+}
+
+.about-me-text h1 {
+
+}
+
+.about-me-text p {
+
+}

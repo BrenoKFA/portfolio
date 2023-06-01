@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+@media (min-width: 1024px) {
+    .breno {
+        border-right: 4px solid #e0e0e0;
+        width: 12ch;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: typing 2s steps(12),
+        blinking 0.5s infinite step-end alternate;
+    }
+
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+    }
+    
+    @keyframes blinking {
+        50% {
+            border-color: transparent;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .breno {
+        border-right: 4px solid #e0e0e0;
+        width: 12ch;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: typing 2s steps(12),
+        blinking 0.5s infinite step-end alternate;
+    }
+
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+    }
+    
+    @keyframes blinking {
+        50% {
+            border-color: transparent;
+        }
+    }
+
+    .home-text .ola {
+        font-size: 24px;
+    }
+
+    .breno {
+        font-size: 32px;
+    }
+
+    .home-text .desenvolvedor {
+        font-size: 22px;
+    }
+
+    .about-me-text h1 {
+        font-size: 25px;
+    }
+
+    .about-me-text p:nth-child(2) {
+        font-size: 15px;
+    }
+    
+    .about-me-text p:nth-child(3) {
+        font-size: 15px;
+        line-height: 22px;
+    }
+}
+
+@media (max-width: 767px) {
+    nav ul a {
+        padding: 0 10px;
+    }
+
+    .home {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: center;
+    }
+
+    .home-image {
+        padding: 0 10px 10px 10px;
+    }
+
+    .home-image img {
+        min-width: 200px;
+        width: 40%;
+    }
+
+    .home-text {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .home-text .ola {
+        font-size: 22px;
+    }
+
+    .breno {
+        font-size: 26px;
+    }
+
+    .home-text .desenvolvedor {
+        font-size: 20px;
+    }
+
+    .about-me {
+        display: block;
+    }
+
+    .profile {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-me-text {
+        padding-left: 0;
+        padding-top: 20px;
+    }
+
+    .about-me-text h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .about-me-text p:nth-child(2) {
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .about-me-text p:nth-child(3) {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .github img,
+    .linkedin img,
+    .email img {
+        width: 60px;
+        height: 60px;
+    }
+}
